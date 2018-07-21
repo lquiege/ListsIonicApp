@@ -1,0 +1,19 @@
+<ion-header>
+
+    <ion-navbar color="dark">
+        <ion-title>Terminados</ion-title>
+    </ion-navbar>
+
+</ion-header>
+
+
+
+<ion-content>
+
+    <app-lists [completed]="true"></app-lists>
+
+    <ion-fab bottom right>
+        <button color="light" (click)="agregarLista()" ion-fab><ion-icon name="add"></ion-icon></button>
+
+    </ion-fab>
+</ion-content>
